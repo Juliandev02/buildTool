@@ -7,11 +7,8 @@ Dazu braucht ihr in der Regel nicht mehr als ein paar Kommandos. Wichtig ist:
 
 Um bspw. meinen eigenen Kernel zu kompilieren, sieht mein Code so aus. Achja, was im makefile drinne steht, muss in der Bash-Syntax sein. If und Else wären sehr unpraktisch:
 
-``
-#!/bin/bash
-
-mkdir build
-nasm -f elf64 header.asm -o build/header.o
-nasm -f elf64 kernel.asm -o build/kernel.o
-ld --nmagic --output=build/kernel --script=linker.ld build/header.o build/kernel.o
-``
+``#!/bin/bash``
+``mkdir build``
+``nasm -f elf64 header.asm -o build/header.o``
+``nasm -f elf64 kernel.asm -o build/kernel.o``
+``ld --nmagic --output=build/kernel --script=linker.ld build/header.o build/kernel.o``
