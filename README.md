@@ -4,6 +4,7 @@
 Mit diesen Tool könnt ihr wie bei make, etwas bauen-/kompilieren.
 Dazu braucht ihr in der Regel nicht mehr als ein paar Kommandos. Wichtig ist:
 - Das der Build File Name (Makefile bei make) make.sh heißen MUSS. Ansonsten geht das nicht
+- Die Shell - Wie immer bei meinen Projekten Bash sein muss. Sonst wirst du das nicht ausführen können
 
 Um bspw. meinen eigenen Kernel zu kompilieren, sieht mein Code so aus. Achja, was im makefile drinne steht, muss in der Bash-Syntax sein. If und Else wären sehr unpraktisch:
 
