@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Example of a Makefile
+
 mkdir build
 
 nasm -f elf64 header.asm -o build/header.o
