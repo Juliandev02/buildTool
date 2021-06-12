@@ -13,3 +13,8 @@ Nun, wie das System funktioniert:
 Du brauchst:
 - Eine make.sh
 - build auf deinen System installiert
+
+In der make.sh muss der Ablauf des Buildens rein.
+Anschießend musst du nur `build do` ausführen. Wenn du fertig bist, und willst die builddir löschen, tippe `build clean` ein.
+
+(Achja, ein Xad Package kommt auch noch dafür)
